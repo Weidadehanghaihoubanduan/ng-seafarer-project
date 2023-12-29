@@ -15,12 +15,6 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ng-seafarer-api</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
             <artifactId>ng-seafarer-dao</artifactId>
             <version>${project.version}</version>
         </dependency>
