@@ -75,7 +75,7 @@ public class MultiThread extends Thread {
             log.warn("target method after parse parameter = \n {}", targetEntity.getParameter());
         }
 
-        //开始对齐
+        //开始对齐, 模拟多线程测试
         Barrier.await(cyclicBarrier);
 
         //执行目标方法
