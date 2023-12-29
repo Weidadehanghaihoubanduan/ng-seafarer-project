@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bestpay.seafarer.dao.NgSeafarerDao">
+    <resultMap id="BaseResultMap" type="com.bestpay.seafarer.api.model.dao.NgSeafarerDo">
+
+        <result column="hang_hai_jia" property="hanghaijia" jdbcType="VARCHAR"/>
+
+    </resultMap>
+
+    <select id="queryNgSeafarer" resultMap="BaseResultMap">
+
+        -- sql
+
+    </select>
+
+</mapper>

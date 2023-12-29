@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76de88d7-885c-40c7-bca9-a8f9347395e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../RunWith/RunWith/src/main/resources/jmeter/upgrade.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunWith/RunWith/src/main/resources/jmeter/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/java/com/bestpay/seafarer/api/NgSeafarer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/java/com/bestpay/seafarer/api/model/bo/NgSeafarerBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/java/com/bestpay/seafarer/api/model/dao/NgSeafarerDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/java/com/bestpay/seafarer/api/model/request/NgSeafarerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/java/com/bestpay/seafarer/api/model/result/NgSeafarerVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-api/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/constant/BaseConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/exception/BusinessBaseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/exception/BusinessBaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/handler/HandlerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/page/CPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/result/RD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/utils/SimpleDateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/utils/UniqueId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/java/com/bestpay/seafarer/common/utils/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-common/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/NgSeafarerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/bean/SourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/bean/TargetEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/config/Base64Encrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/config/CryptoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/config/KeyCertInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/config/SignatureUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/constant/HttpConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/core/Barrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/core/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/utils/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/utils/HttpRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/utils/RecursivelyParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/utils/Replacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/concurrent/utils/Signature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/config/BaseRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/config/KafkaProviderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/bean/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/bean/Sampler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/bean/Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/constant/SamplerConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/core/BackendSampler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/core/EngineExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/init/InitJMeterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/instance/LoopInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/instance/SamplerInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/instance/ThreadInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/jmeter/listener/SamplerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/kafka/KafkaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/kafka/impl/KafkaManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/redis/Impl/RedisManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/java/com/bestpay/seafarer/core/redis/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/cert/111.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/cert/123.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/cert/test/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/cert/test/test.P12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/cert/test/天翼电子商务有限公司.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/jmeter/jmeter.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/jmeter/system.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/jmeter/upgrade.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-core/src/main/resources/jmeter/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-dao/src/main/java/com/bestpay/seafarer/dao/NgSeafarerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-dao/src/main/java/com/bestpay/seafarer/dao/xml/NgSeafarerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-dao/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-dao/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-dao/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-dao/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/src/main/java/com/bestpay/seafarer/integration/RepeatSubmitAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/src/main/java/com/bestpay/seafarer/integration/WebLogSubmitAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/src/main/java/com/bestpay/seafarer/integration/annotation/NoRepeatSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-integration/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/src/main/java/com/bestpay/seafarer/manager/Impl/NgSeafarerManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/src/main/java/com/bestpay/seafarer/manager/NgSeafarerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/src/main/java/com/bestpay/seafarer/manager/converter/NgSeafarerConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-manager/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-service/src/main/java/com/bestpay/seafarer/service/NgSeafarerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-service/src/main/java/com/bestpay/seafarer/service/converter/NgSeafarerConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-service/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-service/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-service/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-task/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-task/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-task/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-task/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/java/com/bestpay/seafarer/test/equity/ProxyCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/java/com/bestpay/seafarer/test/equity/ProxySale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/java/com/bestpay/seafarer/test/study/BeanRW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/java/com/bestpay/seafarer/test/study/ComponentRW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/java/com/bestpay/seafarer/test/study/ConfigurationRW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/java/com/bestpay/seafarer/test/study/InitializingBeanRW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/java/com/bestpay/seafarer/test/study/JmeterRW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-seafarer-test/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Weidadehanghaihoubanduan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6b99d229-890c-42b6-80ee-f9520d3c9861" />
+        <option name="url" value="git@github.com:Weidadehanghaihoubanduan/SpringCloudMicroServices.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mvn\mvn\apache-maven-3.3.9\conf\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../mvn/mvn/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\mvn\mvn\apache-maven-3.3.9\conf\settings-bdsh.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="azul-1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="azul-1.8" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2a9bR48s3qO8YkwOImmElIHTzTR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "azul-1.8",
+    "last_opened_file_path": "D:/IdeaProjects/ng-seafarer-project/ng-seafarer-core/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.23908046",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "e79d75d53ac1f421ee16eec8339cc14a",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\ng-seafarer-project\ng-seafarer-core\src\main\resources" />
+      <recent name="D:\IdeaProjects\ng-seafarer-project\ng-seafarer-test\src\main\java\com\bestpay\seafarer\test\study" />
+      <recent name="D:\IdeaProjects\ng-seafarer-project\ng-seafarer-test\src\main\java\com\bestpay\seafarer\test\equity" />
+      <recent name="D:\IdeaProjects\ng-seafarer-project\ng-seafarer-core\src\main\java\com\bestpay\seafarer\core\concurrent" />
+      <recent name="D:\IdeaProjects\ng-seafarer-project\ng-seafarer-core\src\main\java\com\bestpay\seafarer\core\jmeter" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bestpay.seafarer.api.converter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProxySale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bestpay.seafarer.test.equity.ProxySale" />
+      <module name="ng-seafarer-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bestpay.seafarer.test.equity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProxySale" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76de88d7-885c-40c7-bca9-a8f9347395e1" name="Changes" comment="" />
+      <created>1703733731663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703733731663</updated>
+      <workItem from="1703733732692" duration="6149000" />
+      <workItem from="1703748423597" duration="1721000" />
+      <workItem from="1703750195186" duration="133000" />
+      <workItem from="1703750336253" duration="452000" />
+      <workItem from="1703750798109" duration="12566000" />
+      <workItem from="1703817681327" duration="2673000" />
+      <workItem from="1703822136027" duration="1578000" />
+      <workItem from="1703829713923" duration="8044000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
