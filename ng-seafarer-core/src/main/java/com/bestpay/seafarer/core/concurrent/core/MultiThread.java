@@ -52,26 +52,28 @@ public class MultiThread extends Thread {
 
         //        数据传递标识位
         Object content = null;
-        HttpResponse sourceResponse = null;
+        HttpResponse response = null;
 
         //依赖数据处理
         if (sourceEntity.getDependency()) {
-            sourceResponse = HttpRequests.doMethod(sourceEntity.getUri(), sourceEntity.getMethod(),
-                    sourceEntity.getHeaderKey(), sourceEntity.getHeaderValue(), sourceEntity.getParameter());
-
-            JSONObject contentConspire = JSON.parseObject(sourceResponse.body());
-            content = RecursivelyParse.getValByKey(contentConspire, sourceEntity.getField());
+            try(HttpResponse sourceResponse = HttpRequests.doMethod(sourceEntity.getUri(), sourceEntity.getMethod(),
+                    sourceEntity.getHeaderKey(), sourceEntity.getHeaderValue(), sourceEntity.getParameter())) {
+                response = sourceResponse; JSONObject contentConspire = JSON.parseObject(response.body());
+                content = RecursivelyParse.getValByKey(contentConspire, sourceEntity.getField());              }
         }
 
-        if((sourceEntity.getDependency() && ObjectUtils.isEmpty(content)) || ObjectUtils.isEmpty(targetEntity.getUri())) {
-            log.error("find sourceField or targetUri cannot empty " +
-                    "\n sourceField = {} \n targetUri = {} \n sourceResponse = {}",
-                    sourceEntity.getField(), targetEntity.getUri(), sourceResponse);
-            return;                                      // 后续对外, 此处则直接throw e;
+        if(sourceEntity.getDependency() && ObjectUtils.isEmpty(content)) {
+            log.error("find   sourceField = {}",  sourceEntity.getField());
+            log.error("source traceLogId  = {}",  sourceEntity.getTraceLogId());
+            log.error("source response    = {}",  response.body());
+            return;                               // 后续对外, 此处则直接throw e;
         }
+
+        if(ObjectUtils.isEmpty(targetEntity.getUri())) { log.error("targetUri cannot empty"); }
 
         if (!ObjectUtils.isEmpty(content)) {
-            targetEntity.setParameter( Replacement.substitution(targetEntity.getParameter(), content.toString()) );
+            targetEntity.setParameter( Replacement.substitution(
+                    sourceEntity.getField(), targetEntity.getParameter(), content.toString()) );
             log.warn("target method after parse parameter = \n {}", targetEntity.getParameter());
         }
 
@@ -83,7 +85,6 @@ public class MultiThread extends Thread {
                 targetEntity.getHeaderKey(), targetEntity.getHeaderValue(), targetEntity.getParameter())) {
 
             log.info("\n account = {} " + "            traceLogId = {} " + "\n result = {} ",
-                    targetEntity.getAccount(), targetEntity.getTraceLogId(), targetResponse.body());
-        }
+                    targetEntity.getAccount(), targetEntity.getTraceLogId(), targetResponse.body());      }
     }
 }

@@ -1,6 +1,8 @@
 package com.bestpay.seafarer.core.concurrent.bean;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
@@ -8,6 +10,8 @@ import lombok.experimental.Accessors;
  * @Date: 2023-12-29
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Accessors(chain = true)
 public class TargetEntity {
 
@@ -23,13 +27,4 @@ public class TargetEntity {
      */
     private String account = String.valueOf(Thread.currentThread().getId());
 
-    public TargetEntity() { }
-
-    public TargetEntity(String uri, String method, String headerKey,
-                        String headerValue, String parameter, String traceLogId) {
-        this.uri = uri;
-        this.method = method;
-        this.headerKey = headerKey;
-        this.headerValue = headerValue;
-        this.parameter = parameter;
-        this.traceLogId = traceLogId; }}
+}

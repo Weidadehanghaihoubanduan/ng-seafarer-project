@@ -51,22 +51,24 @@ public class ProxySale {
             String uuid = UUID.randomUUID(Boolean.FALSE).toString();
             SourceEntity source = new SourceEntity();
             Map<String, Object> sourceParameter = new HashMap<>();
-            sourceParameter.put("productNo", "15721484677");
+            sourceParameter.put("productNo", "19970972097");
             sourceParameter.put("strategyNo", "SPN202312071920388753132");
             sourceParameter.put("traceLogId", "dx" + uuid);
-            SourceEntity sourceEntity = source.setUri(PROXY_VERIFY_CODE).setDependency(Boolean.TRUE)
-                    .setField("verifyNo").setParameter(JSONObject.toJSONString(sourceParameter));
+            String sourceTraceLogId = sourceParameter.get("traceLogId").toString();
+            SourceEntity sourceEntity =
+                    source.setUri(PROXY_VERIFY_CODE).setDependency(Boolean.TRUE).setField("verifyNo").
+                            setParameter(JSONObject.toJSONString(sourceParameter)).setTraceLogId(sourceTraceLogId);
 
             TargetEntity target = new TargetEntity();
             Map<String, Object> targetParameter = new HashMap<>();
             targetParameter.put("traceLogId", "dj" + uuid);
-            targetParameter.put("productNo", "15721484677");
+            targetParameter.put("productNo", "19970972097");
             targetParameter.put("fromChannelId", "XMLY");
-            targetParameter.put("verifyCode", "#{verifyCode}");
+            targetParameter.put("verifyCode", "#{verifyNo}");
             targetParameter.put("salesProductNo", "SPN202312071920388753132");
             targetParameter.put("outOrderNo", "OUT" + uuid);
-            String traceLogId = targetParameter.get("traceLogId").toString();
-            target.setUri(PROXY_CHANNEL_ORDER).setTraceLogId(traceLogId).setAccount(phone)
+            String targetTraceLogId = targetParameter.get("traceLogId").toString();
+            target.setUri(PROXY_CHANNEL_ORDER).setTraceLogId(targetTraceLogId).setAccount(phone)
                     .setParameter(JSONObject.toJSONString(targetParameter));
 
             new MultiThread(barrier, source, target).start();
