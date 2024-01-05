@@ -78,7 +78,9 @@ public class EngineExecute extends Thread {
         final ReentrantLock lock = this.engineLock;
         lock.lock();
         try {
-            //开始执行
+            // 开始执行
+            /* StandardJmeterEngine仅是JmeterEngine的一种实现，它主要实现了单机版的发压引擎功能,
+               而JmeterEngine的另一个实现是分布式下的ClientJmeterEngine，其承担Master角色对分布式测试任务进行管理 */
             StandardJMeterEngine engine = new StandardJMeterEngine();
             engine.configure(parentTree);           engine.runTest();
         } finally {

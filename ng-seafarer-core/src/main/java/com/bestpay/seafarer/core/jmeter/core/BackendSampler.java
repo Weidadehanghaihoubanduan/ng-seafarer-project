@@ -42,15 +42,14 @@ public class BackendSampler extends BackendListener {
         if( e == null || e.getResult() == null ) { return; }
         SampleResult result = e.getResult();
 
-        /*           todo 此处应引入kafka对数据进行异步处理;   目前未配置！！！
+        /*  todo 2023/10/18 此处应引入kafka对数据进行异步处理;  Jmeter默认实现, 此处不使用. kafka目前未配置！！！
         *   kafkaTemplate.sendMessage(String topic, String message, @NonNull String traceLogId);   */
 
-
         log.info("\n  status: " + result.isSuccessful()            +
-                 "\n  name: " + result.getSampleLabel()            +
-                 "\n  data: " + result.getSamplerData()            +
-                 "\n  start: " + result.getStartTime()             +
-                 "\n  end: " + result.getEndTime()                 +
+                 "\n  name:   " + result.getSampleLabel()          +
+                 "\n  data:   " + result.getSamplerData()          +
+                 "\n  start:  " + result.getStartTime()            +
+                 "\n  end:    " + result.getEndTime()              +
                  "\n  result: " + result.getResponseDataAsString());
     }
 

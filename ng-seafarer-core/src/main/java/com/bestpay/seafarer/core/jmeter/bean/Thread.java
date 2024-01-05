@@ -66,6 +66,7 @@ public class Thread implements Serializable {
 
     /**
      * 循环控制器
+     * 此处约定使用自定义的LoopInstance;
      */
     private LoopInstance loop;
 

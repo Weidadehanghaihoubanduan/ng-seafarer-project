@@ -40,7 +40,7 @@ public class ProxySale {
     @SneakyThrows
     public static void main(String[] arg) {
 
-        Integer threadNum = 1;
+        Integer threadNum = 1   ;
         SimpleDateFormat data = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         CyclicBarrier barrier = Barrier.getCyclicBarrier(threadNum,
                 () -> log.warn("      ------  do start  ------ " + data.format(new Date())));
@@ -51,7 +51,8 @@ public class ProxySale {
             String uuid = UUID.randomUUID(Boolean.FALSE).toString();
             SourceEntity source = new SourceEntity();
             Map<String, Object> sourceParameter = new HashMap<>();
-            sourceParameter.put("productNo", "19970972097");
+            sourceParameter.put("productNo", "15721484677");
+            sourceParameter.put("fromChannelId", "zidingyiqudao");
             sourceParameter.put("strategyNo", "SPN202312071920388753132");
             sourceParameter.put("traceLogId", "dx" + uuid);
             String sourceTraceLogId = sourceParameter.get("traceLogId").toString();
@@ -62,7 +63,7 @@ public class ProxySale {
             TargetEntity target = new TargetEntity();
             Map<String, Object> targetParameter = new HashMap<>();
             targetParameter.put("traceLogId", "dj" + uuid);
-            targetParameter.put("productNo", "19970972097");
+            targetParameter.put("productNo", "15721484677");
             targetParameter.put("fromChannelId", "XMLY");
             targetParameter.put("verifyCode", "#{verifyNo}");
             targetParameter.put("salesProductNo", "SPN202312071920388753132");
