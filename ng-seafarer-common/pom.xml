@@ -10,6 +10,8 @@
     <artifactId>ng-seafarer-common</artifactId>
     <name>Archetype - ng-seafarer-common</name>
     <url>https://maven.apache.org</url>
+    <version>${project.parent.version}</version>
+    <packaging>jar</packaging>
 
     <dependencies>
 

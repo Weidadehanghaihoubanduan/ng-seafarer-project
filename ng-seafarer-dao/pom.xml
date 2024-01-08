@@ -10,6 +10,8 @@
     <artifactId>ng-seafarer-dao</artifactId>
     <name>Archetype - ng-seafarer-dao</name>
     <url>https://maven.apache.org</url>
+    <version>${project.parent.version}</version>
+    <packaging>jar</packaging>
 
     <dependencies>
 
