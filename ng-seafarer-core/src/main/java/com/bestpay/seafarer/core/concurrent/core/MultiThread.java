@@ -69,7 +69,7 @@ public class MultiThread extends Thread {
             return;                               // 后续对外, 此处则直接throw e;
         }
 
-        if(ObjectUtils.isEmpty(targetEntity.getUri())) { log.error("targetUri cannot empty");   return;  }
+        if(ObjectUtils.isEmpty(targetEntity.getUri())) {  log.error("targetUri cannot empty");   return;  }
 
         if (!ObjectUtils.isEmpty(content)) {
             targetEntity.setParameter( Replacement.substitution(
